@@ -7,7 +7,17 @@ import './index.css'
 import CashWithdrawal from '../CashWithdrawal'
 
 class DenominationItem extends Component {
+  state = {amount: denominationsList}
+
+  onDecrement = id => {
+    const {amount} = this.state
+    this.setState(prevState => {
+      return {amount: prevState.amount - amount}
+    })
+  }
+
   render() {
+    const {amount} = this.state
     return (
       <div className="bg-container">
         <div className="card-container">
