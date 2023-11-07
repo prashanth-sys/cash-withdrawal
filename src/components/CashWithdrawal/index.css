@@ -1,0 +1,22 @@
+.button-item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.heading {
+  color: #d4d2db;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.rupees {
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.button {
+  background-color: #585076;
+  height: 35px;
+  width: 75px;
+  border-width: 0px;
+  border-radius: 5px;
+}
